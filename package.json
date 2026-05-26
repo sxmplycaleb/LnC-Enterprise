@@ -1,0 +1,23 @@
+{
+  "name": "flagship-ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Full-stack e-commerce web application with JWT auth, product management, cart checkout, order tracking, and optional Stripe/Cloudinary integrations.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "jwt",
+    "full-stack",
+    "stripe",
+    "cloudinary"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
