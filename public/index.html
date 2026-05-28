@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CommerceOS | Full-Stack E-Commerce Platform</title>
+    <title>Full-Stack E-Commerce Platform</title>
     <link rel="preconnect" href="https://images.unsplash.com">
     <script>
       const savedTheme = localStorage.getItem("commerce-theme");
@@ -53,8 +53,8 @@
             <span>Cart value</span>
           </div>
           <div>
-            <span class="metric">JWT</span>
-            <span>Secure sessions</span>
+            <span class="metric">Upto 70% OFF!!</span>
+          
           </div>
         </div>
       </section>
@@ -84,9 +84,15 @@
             Minimum rating
             <select id="ratingSelect">
               <option value="0">Any rating</option>
+              <option value="1">1.0+</option>
+              <option value="1.5">1.5+</option>
+              <option value="2">2.0+</option> 
+              <option value="2.5">2.5+</option>
+              <option value="3">3.0+</option>
+              <option value="3.5">3.5+</option>
               <option value="4">4.0+</option>
               <option value="4.5">4.5+</option>
-              <option value="4.8">4.8+</option>
+            
             </select>
           </label>
           <label class="checkbox-row">
@@ -221,7 +227,8 @@
         <label>Email<input id="authEmail" required type="email" autocomplete="email"></label>
         <label>Password<input id="authPassword" required type="password" autocomplete="current-password"></label>
         <button class="primary-button" type="submit" id="authSubmit">Sign in</button>
-        <button class="link-button" type="button" id="toggleAuthMode">Need an account? Create one</button>
+        <button class="link-button" type="button" id="toggleAuthMode">Sign up</button>
+        <button class="link-button" type="button" id="toggleAuthMode2">Forgot your password? Set a new password</button>
       </form>
     </div>
 
